@@ -148,17 +148,9 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if(license !== "None"){
     return `
-    ## License
-    ${renderLicenseBadge(license)}
-    This project is protected under the ${license}. To learn more about this license, please click the following link: ${renderLicenseLink(license)}.
-
-    ## Table of Contents
-    [License](#license)
-    `
-  } else {
-    return `
-    ## Table of Contents
-    `
+  ## License
+  ${renderLicenseBadge(license)}
+  This project is protected under the ${license}. To learn more about this license, please click the following link: ${renderLicenseLink(license)}.`
   }
 }
 
@@ -169,6 +161,8 @@ function generateMarkdown(data) {
   ${data.motive}. ${data.why}. ${data.problemSolved}. ${data.learned}.
 
   ${renderLicenseSection(data.license)}
+
+  ## Table of Contents
   [Installation](#installation)
   [Usage](#usage)
   [Credits](#credits)
