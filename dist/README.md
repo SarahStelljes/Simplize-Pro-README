@@ -1,6 +1,6 @@
-# GAHA
+# Digger
   ## Description
-  aha. ah. ha. nu.
+  Ipsum.. Ipsum.. Ipsum. Ipsum.
 
   
   ## License
@@ -16,17 +16,16 @@
 
 
   ## Installation
-  nono
+  Ipusm
 
   ## Usage
-  non
+  Ipsum
 
   ## Credits
-  nuuu
+  Ipsum
 
   ## Tests
-  ahhhh
+  Ipsum
 
   ## Questions
-  If you have any questions, please ask via email with the link below.
-  HAHA
+  If you have any questions, please ask via this email: test.this@gmail.com

@@ -151,6 +151,8 @@ function renderLicenseSection(license) {
   ## License
   ${renderLicenseBadge(license)}
   This project is protected under the ${license}. To learn more about this license, please click the following link: ${renderLicenseLink(license)}.`
+  } else {
+    return ""
   }
 }
 
@@ -183,8 +185,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  If you have any questions, please ask via email with the link below.
-  ${data.email}
+  If you have any questions, please ask via this email: ${data.email}
 `;
 }
 
