@@ -129,6 +129,7 @@ const questions = [
         message: "Please choose a license for your project.",
         default: "None",
         choices: [
+            "None",
             "MIT License",
             "Apache 2.0 License",
             "Boost Software License 1.0",
